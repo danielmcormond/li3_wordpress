@@ -13,7 +13,7 @@ class Wordpress extends \lithium\core\StaticObject {
 	/*
 	 * Path to wordpress install
 	 */
-	protected static $_path = null;
+	protected static $_wordpress_path = null;
 	
 	public static function config($config = array()) {
 		switch(true) {
